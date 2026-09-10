@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useEffect } from 'react';
 import imgSquad from '../../img/quadrado.png';
 import Lampada from '../Lampada';
@@ -65,4 +66,23 @@ export default function Conteudo() {
             </section>
         </main>
     );
+=======
+export default function Conteudo() {
+  return (
+    <main>
+      <h2>Conteúdo principal</h2>
+
+      <figure>
+        <img
+          src="https://placehold.co/600x400/FFFFF0/FFFFFF/png"
+          alt="Imagem ilustrativa do conteúdo"
+        />
+
+        <figcaption>
+          Imagem utilizada para representar o conteúdo da aplicação.
+        </figcaption>
+      </figure>
+    </main>
+  )
+>>>>>>> 6297e0eb8938deb46580367324062d7af745b4f4
 }
