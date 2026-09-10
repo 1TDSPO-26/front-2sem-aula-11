@@ -1,6 +1,8 @@
 import { Link } from "react-router";
 
-export default function Home() {
+export default function Error() {
+    document.title = "Error"
+
     return(
         <main>
             <h2>404 - Página não encontrada!</h2>
