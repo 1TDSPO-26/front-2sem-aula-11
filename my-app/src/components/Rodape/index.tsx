@@ -1,7 +1,7 @@
 export default function Rodape(){
     return(
         <header>
-            <h1>Rodapé</h1>
+            <p>&copy; 2026 - Todos os direitos reservados</p>
         </header>
     )
 }
