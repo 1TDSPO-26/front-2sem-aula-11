@@ -11,11 +11,11 @@ import App from './App'
 
 
 
- const router = createBrowserRouter([
+const router = createBrowserRouter([
   {path: '/', element: <App/>, errorElement: <Error/>, children: [
     {path: '/', element: <Home/>},
     {path: 'produtos', element: <Produtos/>},
-    {path: 'editar-produtos', element: <EditarProdutos/>}
+    {path: 'editar-produto/:id', element: <EditarProdutos/>},
   ]}
 ])  
 

@@ -7,9 +7,9 @@ import Rodape from "./components/Rodape";
 export default function App() {
   return (
     <main>
-     <Cabecalho/>
-    <Outlet/>
-     <Rodape/>
+      <Cabecalho/>
+      <Outlet/>
+      <Rodape/>
     </main>
   );
 }
